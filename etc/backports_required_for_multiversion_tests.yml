@@ -120,6 +120,8 @@ last-continuous:
       ticket: SERVER-131540
     - test_file: jstests/noPassthrough/query/query-optimization/runtime_constants_user_roles_auth_bypass.js
       ticket: SERVER-128433
+    - test_file: jstests/replsets/arbiter_afterClusterTime_read_concern.js
+      ticket: SERVER-130759
     - test_file: jstests/replsets/clean_shutdown_log.js
       ticket: SERVER-132245
     - test_file: jstests/replsets/initial_sync_clean_shutdown_sync_source.js
@@ -134,6 +136,8 @@ last-continuous:
       ticket: SERVER-127745
     - test_file: jstests/sharding/index_commands_shard_targeting.js
       ticket: SERVER-131386
+    - test_file: jstests/sharding/query/change_streams/change_stream_update_lookup_sharded_insert_update.js
+      ticket: SERVER-131202
     - test_file: jstests/sharding/range_deleter_does_not_block_stepdown_with_prepare_conflict.js
       ticket: SERVER-131283
     - test_file: jstests/sharding/reshard_collection_hashed_prefix_with_zones.js
@@ -193,6 +197,8 @@ last-lts:
       ticket: SERVER-131540
     - test_file: jstests/noPassthrough/query/query-optimization/runtime_constants_user_roles_auth_bypass.js
       ticket: SERVER-128433
+    - test_file: jstests/replsets/arbiter_afterClusterTime_read_concern.js
+      ticket: SERVER-130759
     - test_file: jstests/replsets/clean_shutdown_log.js
       ticket: SERVER-132245
     - test_file: jstests/replsets/initial_sync_clean_shutdown_sync_source.js
@@ -211,6 +217,8 @@ last-lts:
       ticket: SERVER-133661
     - test_file: jstests/sharding/query/change_streams/change_stream_metrics_update_lookup.js
       ticket: SERVER-134581
+    - test_file: jstests/sharding/query/change_streams/change_stream_update_lookup_sharded_insert_update.js
+      ticket: SERVER-131202
     - test_file: jstests/sharding/query/search/internal_search_id_lookup_ddl_concurrency.js
       ticket: SERVER-134581
     - test_file: jstests/sharding/range_deleter_does_not_block_stepdown_with_prepare_conflict.js
